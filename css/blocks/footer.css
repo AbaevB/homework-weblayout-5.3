@@ -72,3 +72,33 @@
   grid-template-columns: repeat(2, auto);
   column-gap: 40px;
 }
+
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__lang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__lang svg   {
+  flex-shrink: 0;
+}
+
+.footer__lang-text  {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__copy {
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
