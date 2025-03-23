@@ -1,6 +1,5 @@
 .contacts {
-  padding-top: 30px;
-  margin: 0 0 80px;
+  padding: 32px 0 80px;
 }
 
 .contacts__title {
@@ -8,13 +7,13 @@
   font-weight: 700;
   line-height: 40px;
   letter-spacing: -0.02em;
-  margin: 0 0 37px;
+  margin: 0 0 28px;
 }
 
 .contacts__wrap {
   display: grid;
   grid-template-columns: 500px 1fr;
-  gap: 100px;
+  gap: 130px;
   margin: 0 0 80px;
 }
 
@@ -26,7 +25,7 @@
 .contacts__wrap-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px 37px;
+  gap: 5px 30px;
 }
 
 .contacts__info {
@@ -36,20 +35,24 @@
 }
 
 .contacts__info-title {
+  margin: 0;
+  margin-bottom: 5px;
   color: rgba(36, 36, 36, 0.50);
-  font-size: 15px;
-  line-height: 19px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
 .contacts__info-link {
-  font-size: 18px;
+  margin-bottom: 8px;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 20px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
 }
 
 .contacts__info-link svg {
@@ -59,11 +62,13 @@
 }
 
 .contacts__info-text {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   margin: 0;
-  display: flex;
-  flex-direction: column;
+}
+
+.contacts__info-text-span {
+  display: block;
 }
 
 .contacts__map-img {
@@ -71,7 +76,7 @@
 }
 
 .contacts__btn {
-  width: 230px;
-  height: 55px;
+  width: 100%;
+  /*height: 55px;*/
   margin-top: auto;
 }
