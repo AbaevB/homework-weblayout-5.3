@@ -41,7 +41,7 @@
   color: #242424;
 }
 
-.safety__nav    {
-display: grid;
- gap: 20px;
+.safety__right  {
+  display: grid;
+  gap: 20px;
 }

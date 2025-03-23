@@ -1,0 +1,26 @@
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border: 1px solid #e1e1e1;
+  border-radius: 20px;
+}
+
+.right-nav__title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #242424;
+}
+
+.right-nav__list-item:not(:last-child)  {
+  margin-bottom: 15px;
+}
+
+.right-nav__link  {
+  font-size: 16px;
+  line-height: 20px;
+  color: #242424;
+}
