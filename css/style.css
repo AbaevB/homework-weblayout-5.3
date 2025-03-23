@@ -4,6 +4,7 @@
 @import "global/reboot.css";
 @import "global/container.css";
 @import "global/visually-hidden.css";
+@import "global/list-reset.css";
 
 /* Blocks */
 /* ------------------------------------ */
@@ -13,3 +14,4 @@
 @import "blocks/btn.css";
 @import "blocks/social.css";
 @import "blocks/contacts.css";
+@import "blocks/payment-list.css";

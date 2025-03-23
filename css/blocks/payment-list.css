@@ -1,0 +1,13 @@
+.payment-list   {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-list__item {
+  display: flex;
+  width: 56px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+}
