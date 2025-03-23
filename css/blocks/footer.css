@@ -1,6 +1,6 @@
 .footer {
   background-color: #212226;
-  padding: 40px 0;
+  padding: 20px 0 31px;
 }
 
 .footer__top {
@@ -10,8 +10,19 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1)
 }
 
+.footer__logo-link   {
+  display: flex;
+  width: 125px;
+  height: 44px;
+}
+
+.footer__logo-link svg {
+  flex-shrink: 0;
+}
+
 .footer__top-right {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
@@ -52,7 +63,12 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: #fff;
+}
+
+.footer__list-title--payment  {
+  margin: 0 0 7px;
 }
 
 .footer__list-item:not(:last-child) {
@@ -70,14 +86,18 @@
 .footer__list--big {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  column-gap: 40px;
+  column-gap: 58px;
+}
+
+.footer__download-list  {
+  padding-left: 12px;
 }
 
 
 .footer__bottom {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .footer__lang {
@@ -98,6 +118,8 @@
 }
 
 .footer__copy {
+  margin: 0;
+  margin-top: auto;
   font-size: 13px;
   line-height: 16px;
   color: rgba(255, 255, 255, 0.5);
