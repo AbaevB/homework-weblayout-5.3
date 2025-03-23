@@ -45,3 +45,14 @@
   display: grid;
   gap: 20px;
 }
+
+.safety__btn  {
+  width: 100%;
+}
+
+.safety__image  {
+  width: 290px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+}
