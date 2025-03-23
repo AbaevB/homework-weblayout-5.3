@@ -1,13 +1,23 @@
-.safety   {
-  padding: 30px 0 0;
+.safety {
+  margin-bottom: 34px;
 }
 
 .safety__wrapper  {
-  margin: 0 0 60px;
+  margin: 0 0 55px;
   display: grid;
   grid-template-columns: 1fr 290px;
   gap: 180px;
 }
+
+.safety__title  {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  color: #242424;
+}
+
 .safety__text   {
   margin: 0 0 20px;
   font-size: 16px;
@@ -17,6 +27,7 @@
 }
 
 .safety__text--semibold {
+  margin: 0 0 25px;
   font-weight: 600;
 }
 
